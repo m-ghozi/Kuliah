@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-02 09:11:03 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDI7MDg6NDk6MDAgUE07MjI3Ng=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDI7MDk6MTE6MDMgUE07MTsyMzc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="input, loop, angka1, angka2, total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan input: &quot;" newline="True"/>
+            <input variable="input"/>
+            <assign variable="angka1" expression="1"/>
+            <assign variable="angka2" expression="0"/>
+            <for variable="loop" start="0" end="input -1" direction="inc" step="1">
+                <assign variable="total" expression="angka1 + angka2"/>
+                <assign variable="angka1" expression="angka2"/>
+                <assign variable="angka2" expression="total"/>
+                <output expression="total" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

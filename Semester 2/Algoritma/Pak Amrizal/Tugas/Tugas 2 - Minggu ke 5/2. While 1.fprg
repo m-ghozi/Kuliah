@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 05:41:31 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDU6MTk6MTQgUE07MjI3Ng=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDU6NDE6MzEgUE07MTsyMzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lagi" type="String" array="False" size=""/>
+            <output expression="&quot;Ingin Isi Air : y/n&quot;" newline="True"/>
+            <input variable="lagi"/>
+            <while expression="lagi == &quot;y&quot;">
+                <output expression="&quot;Berhasil, Ingin isi lagi?&quot;" newline="True"/>
+                <input variable="lagi"/>
+            </while>
+            <output expression="&quot;Terimakasih telah mengisi air&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

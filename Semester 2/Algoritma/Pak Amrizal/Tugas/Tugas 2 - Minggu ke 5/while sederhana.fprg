@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-01 10:53:21 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDE7MTA6NDQ6MjIgUE07MjI2Nw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDE7MTA6NTM6MjEgUE07MTsyMzc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="data" type="Integer" array="False" size=""/>
+            <assign variable="data" expression="0"/>
+            <while expression="data &lt; 10">
+                <assign variable="data" expression="data + 1"/>
+                <output expression="&quot;Nilai dari data &quot; &amp; data" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

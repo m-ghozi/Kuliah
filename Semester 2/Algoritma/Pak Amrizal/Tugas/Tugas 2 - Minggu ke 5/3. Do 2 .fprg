@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Caki"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-04 04:37:23 AM"/>
+        <attribute name="created" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDM7MDY6MjU6NDMgUE07MjM5Nw=="/>
+        <attribute name="edited" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDQ7MTI6MTQ6NDMgQU07MTsyNDg2"/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDQ7MDQ6Mzc6MjMgQU07MTsyMzY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Nilai Awal&quot;" newline="True"/>
+            <input variable="i"/>
+            <output expression="&quot;Dari Nilai Yang Anda Inputkan Maka Nilai Selanjutnya&quot;" newline="True"/>
+            <do expression="i&lt;=25">
+                <output expression="i&amp;&quot;, &quot;" newline="False"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+            <output expression="&quot;Dst...&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

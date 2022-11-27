@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Caki"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 03:23:28 PM"/>
+        <attribute name="created" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDM7MDI6NTU6NDkgUE07MjQwMg=="/>
+        <attribute name="edited" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDM7MDM6MjM6MjggUE07MTsyNTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y" type="Integer" array="False" size=""/>
+            <output expression="&quot;masukan angka&quot;" newline="True"/>
+            <input variable="x"/>
+            <for variable="y" start="1" end="x" direction="inc" step="1">
+                <output expression="y" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

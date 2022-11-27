@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 05:44:28 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDQ6MDU6MzggUE07MjI3Ng=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDU6NDQ6MjggUE07MjsyMzg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angka, end" type="Integer" array="False" size=""/>
+            <assign variable="angka" expression="0"/>
+            <output expression="&quot;Masukan nomor bus&quot;" newline="True"/>
+            <input variable="end"/>
+            <while expression="angka &lt; end">
+                <assign variable="angka" expression="angka + 1"/>
+                <output expression="&quot;Bus &quot; &amp; angka" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

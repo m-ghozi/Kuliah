@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-25 12:21:24 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MTE6MzU6MDkgQU07MjI2Mw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MTI6MjE6MjQgUE07MTsyMzc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="umur" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Umur : &quot;" newline="True"/>
+            <input variable="umur"/>
+            <if expression="umur&lt;=5">
+                <then>
+                    <output expression="&quot;Merupakan Balita&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="umur&gt;5">
+                        <then>
+                            <if expression="umur&lt;=13">
+                                <then>
+                                    <output expression="&quot;Merupakan Anak-Anak&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="umur&lt;=25">
+                                        <then>
+                                            <output expression="&quot;Merupakan Remaja&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="umur&lt;=35">
+                                                <then>
+                                                    <output expression="&quot;Dewasa&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="umur&lt;=55">
+                                                        <then>
+                                                            <output expression="&quot;Orang Tua&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="umur&gt;55">
+                                                                <then>
+                                                                    <output expression="&quot;Lansia&quot;" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-08 10:24:22 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDg7MDg6MzI6MDggQU07MjI2Nw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDg7MTA6MjQ6MjIgUE07MzsyMzgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, max, angka1" type="Integer" array="False" size=""/>
+            <assign variable="angka1" expression="1"/>
+            <output expression="&quot;Masukan angka terakhir &quot;" newline="True"/>
+            <input variable="max"/>
+            <for variable="x" start="1" end="max -1" direction="inc" step="1">
+                <assign variable="x" expression="angka1 + x"/>
+                <output expression="x" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

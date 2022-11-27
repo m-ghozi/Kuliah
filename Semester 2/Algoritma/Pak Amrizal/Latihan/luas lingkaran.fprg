@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-18 08:24:45 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDg6MTQ6MjIgQU07MjI2Mw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDg6MjQ6NDUgQU07MTsyMzc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Phi, r, K" type="Integer" array="False" size=""/>
+            <assign variable="Phi" expression="3.14"/>
+            <input variable="r"/>
+            <assign variable="K" expression="2*Phi*r"/>
+            <output expression="K" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

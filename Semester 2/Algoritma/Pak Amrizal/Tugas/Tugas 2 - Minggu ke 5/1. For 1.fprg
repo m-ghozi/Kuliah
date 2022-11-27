@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 02:14:11 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDE6Mzk6NDcgUE07MjI4MA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDI6MTQ6MTEgUE07MTsyMzcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kata" type="String" array="False" size=""/>
+            <declare name="looping, perulangan" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan kata yang akan di looping : &quot;" newline="True"/>
+            <input variable="kata"/>
+            <output expression="&quot;Masukan jumlah looping &quot;" newline="True"/>
+            <input variable="looping"/>
+            <for variable="perulangan" start="1" end="looping" direction="inc" step="1">
+                <output expression="kata" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

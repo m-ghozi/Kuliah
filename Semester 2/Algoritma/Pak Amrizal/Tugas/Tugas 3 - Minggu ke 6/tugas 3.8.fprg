@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-09 04:15:52 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDI6MzA6MTAgUE07MjI2OA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDQ6MTU6NTIgUE07MjsyMzg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, maxx, maxy" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="1"/>
+            <assign variable="y" expression="1"/>
+            <output expression="&quot;Masukan jumlah baris : &quot;" newline="True"/>
+            <input variable="maxx"/>
+            <for variable="x" start="x" end="maxx" direction="inc" step="1">
+                <for variable="y" start="1" end="x" direction="inc" step="1">
+                    <output expression="y" newline="False"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

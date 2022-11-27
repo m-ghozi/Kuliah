@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Caki"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-04 04:28:36 AM"/>
+        <attribute name="created" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDQ7MTI6MTQ6NDggQU07MjM4Mw=="/>
+        <attribute name="edited" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDQ7MTI6Mzc6MDggQU07MjsyNDkz"/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDQ7MDQ6Mjg6MzYgQU07MTsyMzcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="batas, awal" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Angka Akhir&quot;" newline="True"/>
+            <input variable="batas"/>
+            <output expression="&quot;Dari Angka Berapa Anda Ingin Memulai?&quot;" newline="True"/>
+            <input variable="awal"/>
+            <output expression="&quot;Anda Memulai Dari Angka&quot; &amp; &quot; &quot; &amp; awal" newline="True"/>
+            <output expression="&quot;Angka Genap Dari&quot; &amp; &quot; &quot; &amp; awal &amp; &quot; &quot;&amp; &quot;Sampai&quot; &amp; &quot; &quot; &amp; batas &amp; &quot; &quot; &amp; &quot;Adalah&quot;" newline="True"/>
+            <do expression="awal&lt;=batas">
+                <if expression="awal%2==0">
+                    <then>
+                        <output expression="awal" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="awal" expression="awal+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

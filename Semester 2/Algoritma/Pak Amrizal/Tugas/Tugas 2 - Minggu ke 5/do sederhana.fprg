@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-01 10:57:27 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDE7MTA6NTQ6NDYgUE07MjI3NA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDE7MTA6NTc6MjcgUE07MTsyMzg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angka" type="Integer" array="False" size=""/>
+            <assign variable="angka" expression="0"/>
+            <do expression="angka &lt; 10">
+                <assign variable="angka" expression="angka + 1"/>
+                <output expression="&quot;Angka = &quot; &amp; angka" newline="True"/>
+            </do>
+            <output expression="&quot;Selesai&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

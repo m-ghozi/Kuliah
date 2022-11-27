@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-25 02:55:07 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MTI6NTY6MTAgUE07MjI3NA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MDI6NTU6MDcgUE07MjsyMzg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peserta, minibus" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Jumlah Peserta : &quot;" newline="True"/>
+            <input variable="peserta"/>
+            <if expression="peserta%7=0">
+                <then>
+                    <assign variable="minibus" expression="peserta/7"/>
+                    <output expression="minibus" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="minibus" expression="peserta/7+1"/>
+                    <output expression="minibus" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

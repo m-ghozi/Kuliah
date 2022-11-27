@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-31 12:08:09 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDQ6Mjg6MDcgUE07MjI4Mw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDU6MTQ6MDMgUE07MzsyMzg1"/>
+        <attribute name="edited" value="Z2hvemk7REVTS1RPUC1WMFZNSThSOzIwMjItMDUtMzE7MTI6MDg6MDkgQU07MzszMDEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z, i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="-1"/>
+            <for variable="y" start="5" end="1" direction="dec" step="1">
+                <for variable="x" start="1" end="y" direction="inc" step="1">
+                    <for variable="z" start="1" end="i" direction="inc" step="1">
+                        <output expression="&quot; &quot;" newline="False"/>
+                    </for>
+                    <output expression="&quot;*&quot;" newline="False"/>
+                    <assign variable="i" expression="-1"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+                <assign variable="i" expression="6-y"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

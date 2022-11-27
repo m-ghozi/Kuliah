@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-21 11:29:36 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjE7MTA6NTI6NDQgQU07MjI1Ng=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjE7MTE6Mjk6MzYgQU07MTsyMzcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <for variable="a" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;PPNP&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

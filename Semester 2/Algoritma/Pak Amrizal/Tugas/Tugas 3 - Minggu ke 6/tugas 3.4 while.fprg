@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-09 02:01:50 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDg7MTA6MjU6NTkgUE07MjI4Mw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDI6MDE6NTAgUE07MjsyMzc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, awal, akhir" type="Integer" array="False" size=""/>
+            <assign variable="awal" expression="0"/>
+            <output expression="&quot;Masukan angka terakhir : &quot;" newline="False"/>
+            <input variable="akhir"/>
+            <while expression="awal &lt;= akhir-2">
+                <assign variable="awal" expression="awal + 2"/>
+                <output expression="awal" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

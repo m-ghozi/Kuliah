@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-18 08:33:31 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDg6MjQ6NDggQU07MjI3Mg=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDg6MzM6MzEgQU07MTsyMzcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="panjang, lebar, luas" type="Integer" array="False" size=""/>
+            <input variable="panjang"/>
+            <input variable="lebar"/>
+            <assign variable="luas" expression="panjang*lebar"/>
+            <output expression="luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

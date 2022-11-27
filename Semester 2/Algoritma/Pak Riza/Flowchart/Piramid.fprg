@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-31 12:05:28 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDU6NDc6MDEgUE07MjI3OQ=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDU6NTA6MDAgUE07MTsyMzgw"/>
+        <attribute name="edited" value="Z2hvemk7REVTS1RPUC1WMFZNSThSOzIwMjItMDUtMzE7MTI6MDU6MjggQU07NDszMDA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, i, s, a, q" type="Integer" array="False" size=""/>
+            <assign variable="s" expression="5"/>
+            <assign variable="q" expression="1"/>
+            <for variable="x" start="1" end="5" direction="inc" step="1">
+                <for variable="y" start="1" end="q" direction="inc" step="1">
+                    <for variable="i" start="0" end="s" direction="inc" step="1">
+                        <output expression="&quot; &quot;" newline="False"/>
+                    </for>
+                    <output expression="&quot;*&quot;" newline="False"/>
+                    <assign variable="s" expression="-1"/>
+                </for>
+                <output expression="&quot;&quot;" newline="True"/>
+                <assign variable="s" expression="5 - x"/>
+                <assign variable="q" expression="x*2+1"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

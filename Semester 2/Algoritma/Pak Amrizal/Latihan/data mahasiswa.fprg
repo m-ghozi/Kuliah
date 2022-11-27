@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-18 09:08:34 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDg6NTA6NTQgQU07MjI2OA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDk6MDg6MzQgQU07MTsyMzc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama" type="String" array="False" size=""/>
+            <declare name="nilai" type="Integer" array="False" size=""/>
+            <input variable="nama"/>
+            <input variable="nilai"/>
+            <if expression="nilai &gt; 70">
+                <then>
+                    <output expression="&quot;Nama : &quot; &amp; nama &amp; &quot; &quot; &amp; &quot;nilai : &quot; &amp;  nilai &amp; &quot; Selamat anda lulus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nama : &quot; &amp; nama &amp; &quot; &quot; &amp; &quot;nilai : &quot; &amp;  nilai &amp; &quot; Maaf anda tidak lulus&quot;" newline="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

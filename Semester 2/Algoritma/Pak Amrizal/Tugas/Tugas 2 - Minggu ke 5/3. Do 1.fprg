@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 11:26:26 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDg6NTg6NTYgUE07MjI4OA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MTE6MjY6MjYgUE07MTsyMzgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angka" type="Integer" array="False" size=""/>
+            <assign variable="angka" expression="0"/>
+            <do expression="angka &lt; 5">
+                <assign variable="angka" expression="angka + 1"/>
+                <output expression="angka" newline="True"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

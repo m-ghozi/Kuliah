@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-25 09:10:47 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MDc6NTY6MDMgQU07MjI2NQ=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MDk6MTA6NDcgQU07MTsyMzcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="masuk, keluar, lama, biaya" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan Jam Masuk&quot;" newline="True"/>
+            <input variable="masuk"/>
+            <output expression="&quot;Masukan Jam Keluar&quot;" newline="True"/>
+            <input variable="keluar"/>
+            <assign variable="lama" expression="keluar-masuk"/>
+            <if expression="lama&lt;=2">
+                <then>
+                    <assign variable="biaya" expression="2000"/>
+                </then>
+                <else>
+                    <assign variable="biaya" expression="(lama-2)*500+2000"/>
+                </else>
+            </if>
+            <output expression="&quot;Lama anda parkir : &quot;&amp; &quot; &quot; &amp; lama &amp; &quot; &quot;&amp;&quot;jam&quot; &amp; &quot; &amp;&quot; &amp; &quot;Biaya Parkir : Rp.&quot; &amp; biaya" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-08 08:32:04 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDg7MDg6MjA6MTAgQU07MjI1Nw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDg7MDg6MzI6MDQgQU07MTsyMzcx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, max" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="1"/>
+            <output expression="&quot;Masukan batas Perulangan : &quot;" newline="True"/>
+            <input variable="max"/>
+            <while expression="x &lt;= max">
+                <output expression="x" newline="True"/>
+                <assign variable="x" expression="x + 2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

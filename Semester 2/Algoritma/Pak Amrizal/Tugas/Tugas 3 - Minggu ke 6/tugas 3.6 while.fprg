@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-09 03:01:44 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDI6MDk6MTMgUE07MjI3Nw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDk7MDM6MDE6NDQgUE07NDsyMzg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, baris, kolom" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="1"/>
+            <assign variable="y" expression="1"/>
+            <output expression="&quot;Masukan jumlah baris : &quot;" newline="True"/>
+            <input variable="baris"/>
+            <output expression="&quot;Masukan jumlah kolom :&quot;" newline="True"/>
+            <input variable="kolom"/>
+            <while expression="x &lt;= baris">
+                <while expression="y &lt;= kolom">
+                    <output expression="y" newline="False"/>
+                    <assign variable="y" expression="y + 1"/>
+                </while>
+                <assign variable="x" expression="x+1"/>
+                <assign variable="y" expression="1"/>
+                <output expression="&quot;&quot;" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

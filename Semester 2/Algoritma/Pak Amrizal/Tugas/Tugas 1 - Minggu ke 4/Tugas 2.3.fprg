@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-25 11:33:10 AM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MTA6NTY6NDMgQU07MjI2Mw=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMjU7MTE6MzM6MTAgQU07MTsyMzYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="harga, kode, bayar, diskon, tdiskon" type="Integer" array="False" size=""/>
+            <declare name="jenis" type="String" array="False" size=""/>
+            <output expression="&quot;Masukan Jenis A,B, atau C : &quot;" newline="True"/>
+            <input variable="jenis"/>
+            <output expression="&quot;Masukan Kode&quot;" newline="True"/>
+            <input variable="kode"/>
+            <output expression="&quot;Masukan Harga : &quot;" newline="True"/>
+            <input variable="harga"/>
+            <if expression="jenis=&quot;A&quot;">
+                <then>
+                    <assign variable="tdiskon" expression="10"/>
+                    <assign variable="diskon" expression="harga*10/100"/>
+                    <assign variable="bayar" expression="harga-diskon"/>
+                    <output expression="&quot;Jenis barang &quot; &amp; jenis &amp; &quot; Mendapatkan diskon = &quot; &amp; tdiskon &amp;&quot;%, &quot; &amp; &quot;Harga setelah didiskon = &quot; &amp; bayar" newline="True"/>
+                </then>
+                <else>
+                    <if expression="jenis=&quot;B&quot;">
+                        <then>
+                            <assign variable="tdiskon" expression="15"/>
+                            <assign variable="diskon" expression="harga*15/100"/>
+                            <assign variable="bayar" expression="harga-diskon"/>
+                            <output expression="&quot;Jenis barang &quot; &amp; jenis &amp; &quot; Mendapatkan diskon = &quot; &amp; tdiskon &amp;&quot;%, &quot; &amp; &quot;Harga setelah didiskon = &quot; &amp; bayar" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="jenis=&quot;C&quot;">
+                                <then>
+                                    <assign variable="tdiskon" expression="20"/>
+                                    <assign variable="diskon" expression="harga*20/100"/>
+                                    <assign variable="bayar" expression="harga-diskon"/>
+                                    <output expression="&quot;Jenis barang &quot; &amp; jenis &amp; &quot; Mendapatkan diskon = &quot; &amp; tdiskon &amp;&quot;%, &quot; &amp; &quot;Harga setelah didiskon = &quot; &amp; bayar" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Jenis yang anda masukan salah&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

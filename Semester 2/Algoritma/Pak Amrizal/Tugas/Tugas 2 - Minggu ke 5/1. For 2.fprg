@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-03 03:48:00 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDI6Mzc6MDIgUE07MjI3MA=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDM7MDM6NDg6MDAgUE07NDsyMzgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angka1, jumlah, loop" type="Integer" array="False" size=""/>
+            <assign variable="angka1" expression="1"/>
+            <output expression="&quot;Masukan angka 1 sampai ... &quot;" newline="True"/>
+            <input variable="jumlah"/>
+            <output expression="&quot;Angka ganjil yang ada adalah : &quot;" newline="True"/>
+            <for variable="loop" start="0" end="jumlah -1" direction="inc" step="1">
+                <assign variable="loop" expression="angka1 + loop"/>
+                <output expression="loop" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

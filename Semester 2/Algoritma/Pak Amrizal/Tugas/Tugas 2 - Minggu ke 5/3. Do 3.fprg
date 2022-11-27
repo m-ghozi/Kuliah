@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Caki"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-04 12:54:49 AM"/>
+        <attribute name="created" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDQ7MTI6Mzc6MTIgQU07MjM3OQ=="/>
+        <attribute name="edited" value="Q2FraTtMQVBUT1BDQUtJOzIwMjItMDQtMDQ7MTI6NTQ6NDkgQU07MjsyNDk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="nama" type="String" array="False" size=""/>
+            <output expression="&quot;Hai Masukan Nama Anda&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;Berapa % Loading Sekarang?&quot;" newline="True"/>
+            <input variable="i"/>
+            <output expression="&quot;Hallo&quot; &amp; &quot; &quot; &amp; nama &amp; &quot; &quot; &amp; &quot;Selamat Datang Mohon Menunggu&quot;" newline="True"/>
+            <output expression="&quot;Waiting For Loading...&quot;" newline="True"/>
+            <do expression="i&lt;=100">
+                <output expression="i&amp;&quot;%&quot;" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+            <output expression="&quot;Loading Succes&#13;&#10;Thankyou For Waiting... :)&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

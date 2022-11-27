@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ghozi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-02 09:25:12 PM"/>
+        <attribute name="created" value="Z2hvemk7U0hBRE9XOzIwMjItMDMtMTg7MDg6MzM6MzYgQU07MjI2OQ=="/>
+        <attribute name="edited" value="Z2hvemk7U0hBRE9XOzIwMjItMDQtMDI7MDk6MjU6MTIgUE07MjsyMzgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, sisa" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukan angka : &quot;" newline="True"/>
+            <input variable="A"/>
+            <assign variable="sisa" expression="A%2"/>
+            <if expression="sisa = 0">
+                <then>
+                    <output expression="&quot;Angka &quot; &amp; A &amp; &quot; merupakan bilangan genap&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Angka &quot; &amp; A &amp; &quot; merupakan bilangan ganjil&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
